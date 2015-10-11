@@ -1,267 +1,371 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <!-- CSS  -->
-  <link href="css/materialize.css" type="text/css" rel="stylesheet">
-  <link href="css/style.css" type="text/css" rel="stylesheet" >
-  <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <title></title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.css" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+	<link href="color/default.css" rel="stylesheet">
+
 </head>
-<body id="top" class="scrollspy">
 
-<!-- Pre Loader -->
-<div id="loader-wrapper">
-    <div id="loader"></div>
- 
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
- 
-</div>
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	<!-- Preloader -->
+	<div id="preloader">
+	  <div id="load"></div>
+	</div>
 
- <div class="navbar-fixed">
-    <nav id="nav_f" class="default_color" role="navigation">
-      <div class="container">
-        <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo">A.Dokua</a>
-          <ul id="nav-mobile" class="right side-nav">
-            <li><a href="#intro">Bio</a></li>
-            <li><a href="#work"></a></li>
-             <li><a href="http://goo.gl/Y6596f" target="_blank">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <h1>A. Dokua</h1>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#intro">Home</a></li>
+        <li><a href="#about">Bio</a></li>
+		<li><a href="#service">Portfolio</a></li>
+		<li><a href="#contact">Contact</a></li>
+        <!-- <li class="dropdown"> -->
+          <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a> -->
+          <!-- <ul class="dropdown-menu"> -->
+            <!-- <li><a href="#">Example menu</a></li> -->
+           <!-- <li><a href="#">Example menu</a></li> -->
+            <!-- <li><a href="#">Example menu</a></li> -->
+          <!-- </ul> -->
+        </li>
+      </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-      </div>
+        <!-- /.container -->
     </nav>
-  </div>
 
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <h1 class="text_h center header cd-headline letters type">
-      <span>Welcome to</span> 
-      <span class="cd-words-wrapper waiting">
-        <b class="is-visible">My World</b>
-        <b>My Life</b>
-        <b>Your Library</b>
-      </span>
-    </h1>
-    </div>
-  </div>
+	<!-- Section: intro -->
+    <section id="intro" class="intro">
+	
+		<div class="slogan">
+			<h2>WELCOME TO <span class="text_color">SQUAD</span> </h2>
+			<h4>WE ARE GROUP OF GENTLEMEN MAKING AWESOME WEB WITH BOOTSTRAP</h4>
+		</div>
+		<div class="page-scroll">
+			<a href="#service" class="btn btn-circle">
+				<i class="fa fa-angle-double-down animated"></i>
+			</a>
+		</div>
+    </section>
+	<!-- /Section: intro -->
 
- <div id="intro" class="section scrollspy">
-  <div class="container">
-      <!--   Icon Section   -->
+	<!-- Section: about -->
+    <section id="about" class="home-section text-center">
+		<div class="heading-about">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+					<h2>Bio</h2>
+					<i class="fa fa-2x fa-angle-down"></i>
+
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="container">
+
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-5">
+				<hr class="marginbot-50">
+			</div>
+		</div>
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 col-md-3">
+				<div class="wow bounceInUp" data-wow-delay="0.2s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+						<h5>High School</h5>
+                        <p class="subtitle">Aburi Girls' High School</p>
+                        <div class="avatar"><img src="images/aburi.jpg" alt="" class="img-responsive img-circle" /></div>
+                    </div>
+                </div>
+				</div>
+            </div>
+			<div class="col-xs-6 col-sm-3 col-md-3">
+				<div class="wow bounceInUp" data-wow-delay="0.5s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+						<h5>Undergraduate</h5>
+                        <p class="subtitle">University of Ghana</p>
+                        <div class="avatar"><img src="images/UG.jpg" alt="" class="img-responsive img-circle" /></div>
+
+                    </div>
+                </div>
+				</div>
+            </div>
+			<div class="col-xs-6 col-sm-3 col-md-3">
+				<div class="wow bounceInUp" data-wow-delay="0.8s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+						<h5>Post-Graduate</h5>
+                        <p class="subtitle">Meltwater Entrepreneurial <br>School of Technology</p>
+                        <div class="avatar"><img src="images/mest.jpg" alt="" class="img-responsive img-circle" /></div>
+
+                    </div>
+                </div>
+				</div>
+            </div>
+			<!-- <div class="col-xs-6 col-sm-3 col-md-3"> -->
+				<!-- <div class="wow bounceInUp" data-wow-delay="1s"> -->
+                <!-- <div class="team boxed-grey"> -->
+                    <!-- <div class="inner"> -->
+						<!-- <h5>Tom Petterson</h5> -->
+                        <!-- <p class="subtitle">Typographer</p> -->
+                        <!-- <div class="avatar"><img src="img/team/4.jpg" alt="" class="img-responsive img-circle" /></div> -->
+
+                    <!-- </div> -->
+                <!-- </div> -->
+				<!-- </div> -->
+            <!-- </div> -->
+        <!-- </div>		 -->
+		</div>
+	</section>
+	<!-- /Section: about -->
+	
+
+	<!-- Section: services -->
+    <section id="service" class="home-section text-center bg-gray">
+		
+		<div class="heading-about">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+					<h2>Portfolio</h2>
+					<i class="fa fa-2x fa-angle-down"></i>
+
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="container">
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-5">
+				<hr class="marginbot-50">
+			</div>
+		</div>
+        <div class="row">
+            <div class="col-sm-3 col-md-3">
+				<div class="wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="service-box">
+					<div class="service-icon">
+						<img src="images/Speech-01-128.png" alt="" />
+					</div>
+					<div class="service-desc">
+						<h5>Communications</h5>
+						<p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+					</div>
+                </div>
+				</div>
+            </div>
+			<div class="col-sm-3 col-md-3">
+				<div class="wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-box">
+					<div class="service-icon">
+						<img src="images/User-Group-128.png" alt="" />
+					</div>
+					<div class="service-desc">
+						<h5>Public Relations</h5>
+						<p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+					</div>
+                </div>
+				</div>
+            </div>
+			<div class="col-sm-3 col-md-3">
+				<div class="wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-box">
+					<div class="service-icon">
+						<img src="img/icons/service-icon-3.png" alt="" />
+					</div>
+					<div class="service-desc">
+						<h5>Marketing</h5>
+						<p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+					</div>
+                </div>
+				</div>
+            </div>
+			<!-- <div class="col-sm-3 col-md-3"> -->
+				<div class="wow fadeInRight" data-wow-delay="0.2s">
+                <div class="service-box">
+					<div class="service-icon">
+						<img src="img/icons/service-icon-4.png" alt="" />
+					</div>
+					<div class="service-desc">
+						<h5>Cloud System</h5>
+						<p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+					</div>
+                </div>
+				</div>
+            </div>
+        </div>		
+		</div>
+	</section>
+	<!-- /Section: services -->
+	
+
+	
+
+	<!-- Section: contact -->
+    <section id="contact" class="home-section text-center">
+		<div class="heading-contact">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+					<h2>Get in touch</h2>
+					<i class="fa fa-2x fa-angle-down"></i>
+
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="container">
+
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-5">
+				<hr class="marginbot-50">
+			</div>
+		</div>
     <div class="row">
-          <div  class="col s12">
-            <h2 class="center header text_h2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="span_h2"> Phasellus  </span>vestibulum lorem risus, nec suscipit lorem <span class="span_h2"> laoreet quis.</span </h2>
-          </div>
-
-            <div  class="col s12 m4 l4">
-              <div class="center promo promo-example">
-                <i class="mdi-image-flash-on"></i>
-                <h5 class="promo-caption">Customer Service</h5>
-                <p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
-              </div>
+        <div class="col-lg-8">
+            <div class="boxed-grey">
+                <form id="contact-form">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="service">General Customer Service</option>
+                                <option value="suggestions">Suggestions</option>
+                                <option value="product">Product Support</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
+                            Send Message</button>
+                    </div>
+                </div>
+                </form>
             </div>
-            <div class="col s12 m4 l4">
-              <div class="center promo promo-example">
-                <i class="mdi-social-group"></i>
-                <h5 class="promo-caption">Communications</h5>
-                <p class="light center">By utilizing elements and principles of Material Design, we were able to create a framework that focuses on User Experience.</p>
-              </div>
-            </div>
-            <div class="col s12 m4 l4">
-              <div class="center promo promo-example">
-                <i class="mdi-action-settings"></i>
-               <h5 class="promo-caption">Marketing</h5>
-                <p class="light center">We have provided detailed documentation as well as specific code examples to help new users get started.</p>
-              </div>
-            </div>
-      </div>
-
-    <div class="row">
-        <div  class="col s12 m4 l4">
-          <div class="center promo promo-example">
-            <img class="activator" src="images/aburi.jpg">
-            <h5 class="promo-caption">High School</h5>
-            <p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
-          </div>
         </div>
-        <div class="col s12 m4 l4">
-          <div class="center promo promo-example">
-           <img class="activator" src="images/UG.jpg">
-            <!-- <i class="mdi-communication-phone"></i> -->
-            <h5 class="promo-caption">Undergraduate</h5>
-            <p class="light center">By utilizing elements and principles of Material Design, we were able to create a framework that focuses on User Experience.</p>
-          </div>
-        </div>
-        <div class="col s12 m4 l4">
-          <div class="center promo promo-example">
-             <img class="activator" src="images/mest.jpg">
-           <h5 class="promo-caption">Post graduate</h5>
-            <p class="light center">We have provided detailed documentation as well as specific code examples to help new users get started.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+		
+		<div class="col-lg-4">
+			<div class="widget-contact">
+				
 
-<div class="section scrollspy" id="work">
- <div class="container">
-        <h2 class="header text_b"> My heartbeat </h2>
-      <div class="row">
-          <div class="col s12 m4 l4">
-               <div class="card">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="images/indomie.jpg">
-                  </div>
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Card Title <i class="mdi-navigation-more-vert right"></i></span>
-                    <p><a href="#">This is a link</a></p>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Card Title <i class="mdi-navigation-close right"></i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                  </div>
-              </div>
-          </div>
+				<address>
+				  <strong>Email</strong><br>
+				  <a href="mailto:#">karlarish@gmail.com</a>
+				</address>	
+				<address>
+				  <strong>Get Social</strong><br>
+                       	<ul class="company-social">
+                            <li class="social-facebook"><a href="https://www.facebook.com/patience.nyarko.56"" target="_blank"><i class="fa fa-></i></a></li>
+                            <li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li class="social-"><a href="https://twitter.com/Doquah" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+                            <li class="social-google"><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>	
+				</address>					
+			
+			</div>	
+		</div>
+    </div>	
 
-          <div class="col s12 m4 l4">
-               <div class="card">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator"  src="img/04.jpg">
-                  </div>
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Card Title <i class="mdi-navigation-more-vert right"></i></span>
-                    <p><a href="#">This is a link</a></p>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Card Title <i class="mdi-navigation-close right"></i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                  </div>
-              </div>
-          </div>
+		</div>
+	</section>
+	<!-- /Section: contact -->
 
-          <div class="col s12 m4 l4">
-               <div class="card">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator"  src="img/03.jpg">
-                  </div>
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Card Title <i class="mdi-navigation-more-vert right"></i></span>
-                    <p><a href="#">This is a link</a></p>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Card Title <i class="mdi-navigation-close right"></i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                  </div>
-              </div>
-          </div>
-        </div>
-         <div class="row">
-          <div class="col s12 m4 l4">
-               <div class="card">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="img/04.jpg">
-                  </div>
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Card Title <i class="mdi-navigation-more-vert right"></i></span>
-                    <p><a href="#">This is a link</a></p>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Card Title <i class="mdi-navigation-close right"></i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                  </div>
-              </div>
-          </div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="wow shake" data-wow-delay="0.4s">
+					<div class="page-scroll marginbot-30">
+						<a href="#intro" id="totop" class="btn btn-circle">
+							<i class="fa fa-angle-double-up animated"></i>
+						</a>
+					</div>
+					</div>
+					<!-- <p>&copy;Copyright 2014 - Squad. All rights reserved. Designed by <a href="http://bootstraptaste.com">Bootstrap Themes</a></p> -->
+                    <!-- 
+                        All links in the footer should remain intact. 
+                        Licenseing information is available at: http://bootstraptaste.com/license/
+                        You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Squadfree
+                    -->
+				</div>
+			</div>	
+		</div>
+	</footer>
 
-          <div class="col s12 m4 l4">
-               <div class="card">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator"  src="img/05.jpg">
-                  </div>
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Card Title <i class="mdi-navigation-more-vert right"></i></span>
-                    <p><a href="#">This is a link</a></p>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Card Title <i class="mdi-navigation-close right"></i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                  </div>
-              </div>
-          </div>
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>	
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/wow.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
 
-          <div class="col s12 m4 l4">
-               <div class="card">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator"  src="img/03.jpg">
-                  </div>
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Card Title <i class="mdi-navigation-more-vert right"></i></span>
-                    <p><a  href="#">This is a link</a></p>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Card Title <i class="mdi-navigation-close right"></i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                  <a class="waves-effect waves-light btn"><i class="mdi-file-cloud left"></i>button</a>
-                  </div>
-              </div>
-          </div>
-        </div>
-     </div>
-  </div>
-     </div>
-  </div>
+</body>
 
-</div>
-
-
-  <footer id="contact" class="page-footer default_color scrollspy">
-    <div class="container">  
- <div class="row">
-
-        <div class="col l6 s12">
-          <h5 class="white-text">Bio</h5>
-          <p class="grey-text text-lighten-4">
-            We are a team of college students working on this project like it's our full time job. 
-            Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">andreagalanti.it</h5>
-          <ul>
-            <li><a class="white-text" href="http://www.andreagalanti.it/">Home</a></li>
-            <li><a class="white-text" href="http://www.andreagalanti.it/lab">Lab</a></li>
-            <li><a class="white-text" href="http://www.andreagalanti.it/portfolio">Work</a></li>
-            <li><a class="white-text" href="http://www.andreagalanti.it/">Contact</a></li>
-            
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Social</h5>
-          <ul>
-            <li><a class="white-text" href="https://dribbble.com/andreagalanti">Dribbble</a></li>
-            <li><a class="white-text" href="https://www.facebook.com/andreagalantiwebdesign">Facebook</a></li>
-            <li><a class="white-text" href="https://twitter.com/GalantiAndrea">Twitter</a></li>
-            <li><a class="white-text" href="https://plus.google.com/u/0/+AndreaGalantiandreagalanti">Google+</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright default_color">
-      <div class="container">
-      Made by <a class="white-text" href="http://www.andreagalanti.it">Andrea Galanti</a>
-      </div>
-    </div>
-  </footer>
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
-  </body>
 </html>
